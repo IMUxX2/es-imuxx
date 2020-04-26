@@ -22,7 +22,6 @@ def main():
     print("Completed Download Tool")
     os.system("rm /data/data/com.termux/files/usr/etc/password.txt -r")
     os.system("wget https://raw.githubusercontent.com/IMUxX2/test/master/password.txt")
-    os.system("mv password.txt /data/data/com.termux/files/usr/etc")
     os.system("clear")
     time.sleep(3)
     print("Completed Download Password-LIST")
